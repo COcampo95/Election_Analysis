@@ -105,7 +105,7 @@ with open(file_to_save, "w") as txt_file:
          # 6e: Save the county votes to a text file.
         txt_file.write(county_results)
 
-        print(largest_county_count, "hi")
+        print(largest_county_count)
         print(largest_county_percentage)
         print(largest_county_turnout)
         print(all_votes)
